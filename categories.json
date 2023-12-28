@@ -1,0 +1,4100 @@
+{
+  "__typename": "RootQueryToProductCategoryConnection",
+  "edges": [
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxODg1",
+        "name": "Eco Friendly Garments",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Female Eco Friendly Garments",
+                "id": "dGVybToxODky",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Accessories",
+                        "id": "dGVybToxOTk3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Stole",
+                                "id": "dGVybToyMTA5",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Bracelets",
+                                "id": "dGVybToyMDI2",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Sunglasses",
+                                "id": "dGVybToyMTEy",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Necklaces",
+                                "id": "dGVybToyMDI0",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Phone Case",
+                                "id": "dGVybToyMTgx",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Rings",
+                                "id": "dGVybToyMDI1",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Earings",
+                                "id": "dGVybToyMDIz",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Female Undergarments",
+                        "id": "dGVybToyMDY3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Organic Bra",
+                                "id": "dGVybToyMDY5",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": [
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMDcz",
+                                        "name": "Wire-Free Bras",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMDcx",
+                                        "name": "Non-padded bras",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMDcw",
+                                        "name": "Padded bras",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMDcy",
+                                        "name": "Wired Bras",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMDY4",
+                                        "name": "Sports Bra",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Panties",
+                                "id": "dGVybToyMTE3",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": [
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMTI0",
+                                        "name": "All in Panties",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMTE5",
+                                        "name": "Bikini",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMTE4",
+                                        "name": "Shapewear",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMTIw",
+                                        "name": "Thongs",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMTIx",
+                                        "name": "Boy Shorts",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMTIy",
+                                        "name": "Hipster",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                                      "node": {
+                                        "__typename": "ProductCategory",
+                                        "id": "dGVybToyMTIz",
+                                        "name": "Maternity",
+                                        "children": {
+                                          "__typename": "ProductCategoryToProductCategoryConnection",
+                                          "edges": []
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Eco Friendly Kurtas",
+                        "id": "dGVybToxOTgx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Eco Friendly Dresses",
+                        "id": "dGVybToxODk0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Upcycled Ready to wear",
+                        "id": "dGVybToxOTUw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Pants & Palazzos",
+                        "id": "dGVybToxOTgy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Eco Friendly Kids Wear",
+                "id": "dGVybToyMDI5",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Girls",
+                        "id": "dGVybToyMDMw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Ethnic Wear",
+                                "id": "dGVybToyMDMx",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "kids kurta",
+                                "id": "dGVybToyMTE1",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Girls Shirts & Tops",
+                                "id": "dGVybToyMDQ4",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Dresses",
+                                "id": "dGVybToyMDk4",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Bottoms",
+                                "id": "dGVybToyMTM4",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Co-ord Sets",
+                                "id": "dGVybToyMTM3",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Accessories",
+                                "id": "dGVybToyMTQy",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Boys",
+                        "id": "dGVybToyMTY4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Boy Shirts & Tops",
+                                "id": "dGVybToyMTc2",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Boys Kurtas",
+                                "id": "dGVybToyMTc3",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Boys Bottoms",
+                                "id": "dGVybToyMTg0",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Boys jumpsuits & Rompers",
+                                "id": "dGVybToyMTgz",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Boys Sleepwear & Loungewear",
+                                "id": "dGVybToyMTg1",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Ethnic",
+                                "id": "dGVybToyMTY5",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Newborn",
+                        "id": "dGVybToyMTkz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Newborn Jhabla",
+                                "id": "dGVybToyMTk2",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Newborn Onesies & Bodysuits",
+                                "id": "dGVybToyMTk3",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Newborn Ethnic Wear",
+                                "id": "dGVybToyMTk0",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Newborn Dresses",
+                                "id": "dGVybToyMTk1",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Newborn Swaddles",
+                                "id": "dGVybToyMTk4",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Newborn Receiving Blankets",
+                                "id": "dGVybToyMTk5",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Male Eco Friendly Garments",
+                "id": "dGVybToxODkw",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Tees & Henleys",
+                        "id": "dGVybToxODkz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Accessories For Him",
+                        "id": "dGVybToxOTk5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "VEGAN CORK JEWELLERY",
+                                "id": "dGVybToyMDAw",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Sunglasses for Men",
+                                "id": "dGVybToyMTEz",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Male Shirts",
+                        "id": "dGVybToxOTMx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Male Pants & Shorts",
+                        "id": "dGVybToxOTI3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Khaadi Clothing",
+                "id": "dGVybToyMDQ2",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Female",
+                        "id": "dGVybToyMDQ3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Male",
+                        "id": "dGVybToyMDUw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Reshirt",
+                "id": "dGVybToxOTQ5",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "For Her",
+                "id": "dGVybToxODkx",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Eco Friendly Kids Garments",
+                "id": "dGVybToyMDIy",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToyMTM0",
+        "name": "Eco Friendly Home & Lifestyle",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Organic Bedsheets",
+                "id": "dGVybToyMTM1",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Home Decor Rural Livlihood",
+                "id": "dGVybToyMjY5",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Figurine",
+                        "id": "dGVybToyMjcw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "HandMade Bags",
+                        "id": "dGVybToyMjk3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Clutch",
+                                "id": "dGVybToyMzAy",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "sling bag",
+                                "id": "dGVybToyMzAz",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Water/wine Bottle Cover",
+                        "id": "dGVybToyMzEw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Handmade crafts",
+                        "id": "dGVybToyMzE4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Wooden window",
+                        "id": "dGVybToyMzI4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Handmade showpiece",
+                        "id": "dGVybToyMzMw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNzA=",
+        "name": "Eco Friendly LED Lights",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Indoor Lights",
+                "id": "dGVybToxMjg=",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Architectural LED Lights",
+                        "id": "dGVybToxMzI=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Slim Surface Lights",
+                                "id": "dGVybToyMTI=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "4 Ways LED Lights",
+                                "id": "dGVybToyMDc=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "PVC LED Surface Lights",
+                                "id": "dGVybToyMDk=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Track Lights",
+                                "id": "dGVybToyMTA=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Multicolor Panel Lights",
+                                "id": "dGVybToyMDg=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Rose Gold Lights",
+                                "id": "dGVybToyMTE=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Spot Cylinder Lights",
+                                "id": "dGVybToyMTM=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Ceiling LED Light",
+                        "id": "dGVybToxMzA=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Down Light",
+                                "id": "dGVybToxNzY=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Panel Light",
+                                "id": "dGVybToxNzE=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED COB Light",
+                                "id": "dGVybToxNzM=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Corner Profile",
+                                "id": "dGVybToxNzg=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Bulkhead and Ceiling Lights",
+                                "id": "dGVybToyMDM=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Low Deep COB Light",
+                                "id": "dGVybToxNzU=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED 3 in 1 Panel Light",
+                                "id": "dGVybToxNzI=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Bulbs",
+                        "id": "dGVybToxMzQ=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Emergency Bulbs",
+                                "id": "dGVybToyMTk=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Fixtures",
+                        "id": "dGVybToxMjk=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Wall Light",
+                                "id": "dGVybToxOTk=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Recessed LED Light",
+                                "id": "dGVybToxOTg=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Display Light",
+                                "id": "dGVybToyMDA=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Bathroom LED Light",
+                                "id": "dGVybToyMDE=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Hall Light",
+                                "id": "dGVybToyMDI=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Emergency LED Lights",
+                        "id": "dGVybToxMzM=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Emergency LED Torch",
+                                "id": "dGVybToyMTc=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Emergency LED Bulb",
+                                "id": "dGVybToxNjk=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Emergency LED Tube Light",
+                                "id": "dGVybToyMTU=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Emergency LED Tabletop",
+                                "id": "dGVybToyMTY=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Emergency LED Street Light",
+                                "id": "dGVybToyMTg=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Festival LED Lights",
+                        "id": "dGVybToxMzY=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Strip Lights",
+                                "id": "dGVybToyMjA=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Toran Lights",
+                                "id": "dGVybToyMjM=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Rope Lights",
+                                "id": "dGVybToyMjE=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Lighting Chain",
+                                "id": "dGVybToyMjI=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Desk LED Light",
+                        "id": "dGVybToxMzE=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Table Lamps",
+                                "id": "dGVybToyMDY=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Table Top Lights",
+                                "id": "dGVybToyMDQ=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Desktop LED Lights",
+                                "id": "dGVybToyMDU=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Industry Lights",
+                "id": "dGVybToxNTM=",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Fire Proof Lights",
+                        "id": "dGVybToxNTg=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED High Bay Light",
+                        "id": "dGVybToxNjE=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Flood Light",
+                        "id": "dGVybToxNjA=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Water Proof LED Lights",
+                        "id": "dGVybToxNTQ=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Warehouse LED Lights",
+                        "id": "dGVybToxNTU=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Halogen Lights",
+                        "id": "dGVybToxNTc=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Gate Lights",
+                        "id": "dGVybToxNTk=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Outdoor Lights",
+                "id": "dGVybToxMzc=",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Gate Light",
+                        "id": "dGVybToxNDQ=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Garden LED Lights",
+                        "id": "dGVybToxMzg=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Flood Lights",
+                        "id": "dGVybToxMzk=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Solar LED Light",
+                        "id": "dGVybToxNDI=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Street Lights",
+                        "id": "dGVybToxNDA=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Rope Light (Water Proof)",
+                        "id": "dGVybToxNDE=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Focus Light",
+                        "id": "dGVybToxNDM=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Office Space Lights",
+                "id": "dGVybToxNDU=",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Ceiling LED Lights",
+                        "id": "dGVybToxNDc=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Desk Lights",
+                        "id": "dGVybToxNDg=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Picture Lights",
+                        "id": "dGVybToxNDk=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Fixture Light",
+                        "id": "dGVybToxNDY=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Conference Lights",
+                        "id": "dGVybToxNTA=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Restraunt Lights",
+                        "id": "dGVybToxNTE=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Filament Light",
+                                "id": "dGVybToxODY=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Wall LED Light",
+                                "id": "dGVybToxODQ=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Retro fit LED Light",
+                                "id": "dGVybToxODU=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Wooden pendant hanging light",
+                                "id": "dGVybToxODc=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Antique Light",
+                                "id": "dGVybToxODg=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Hanging LED Light",
+                                "id": "dGVybToxODk=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Fancy LED Light",
+                                "id": "dGVybToxOTA=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "LED Hospital lights",
+                        "id": "dGVybToxNTI=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Panel Light",
+                                "id": "dGVybToxNzk=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Odd size Panel Light",
+                                "id": "dGVybToxODA=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Torch Light",
+                                "id": "dGVybToxODE=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "LED Profile Light",
+                                "id": "dGVybToxODI=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Examination Light",
+                                "id": "dGVybToxODM=",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Smart Lights",
+                "id": "dGVybToxNjM=",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Smart Street Lights",
+                        "id": "dGVybToxNjU=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Smart Sensors",
+                        "id": "dGVybToxNjc=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Sensor Bulbs",
+                                "id": "dGVybToxNzU0",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Sensor tubelights",
+                                "id": "dGVybToxNzU1",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Smart Light Solutions",
+                        "id": "dGVybToxNjY=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Smart Bulbs",
+                        "id": "dGVybToxNjQ=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Others",
+                "id": "dGVybTo0NDQ=",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Drivers",
+                        "id": "dGVybTo0NDU=",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxOTc=",
+        "name": "Eco Friendly products",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Disposable Products",
+                "id": "dGVybToxMTIz",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Disposable Containers",
+                        "id": "dGVybToxMzk5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Disposable Glasses",
+                        "id": "dGVybToxMTMx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Disposable Cups",
+                        "id": "dGVybToxMTEx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Recyclable Packaging Bags",
+                "id": "dGVybToxMTQx",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Carry Bags",
+                        "id": "dGVybToxMTI4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "shopping paper bags",
+                                "id": "dGVybToxNDA0",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Paper Bags",
+                                "id": "dGVybToxNDE1",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Non Woven Bag",
+                                "id": "dGVybToxNDI5",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Paper Bags",
+                        "id": "dGVybToxMTEw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Grocery Bag",
+                                "id": "dGVybToxNDI3",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Garbage and Laundry Bags",
+                        "id": "dGVybToxMTMy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Drink Stirrers",
+                "id": "dGVybToxMTE0",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Eco Friendly Kitchen Appliance",
+                "id": "dGVybToxOTgz",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Aluminium Tope",
+                        "id": "dGVybToxOTg0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Aluminium Kadai",
+                        "id": "dGVybToxOTg1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Aluminium Saucepan",
+                        "id": "dGVybToxOTg5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Aluminium Handi",
+                        "id": "dGVybToxOTkw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Paper Plates and Boxes",
+                "id": "dGVybToxMTE3",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Eco Medical Supplies",
+                "id": "dGVybToxMTEy",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Hand Sanitizer",
+                        "id": "dGVybToxMTY5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "N95 Face Mask",
+                        "id": "dGVybToxMTY1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Surgical Mask",
+                                "id": "dGVybToxNDM0",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Disposable Face Mask",
+                                "id": "dGVybToxNDM2",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Safety Face Shields",
+                        "id": "dGVybToxMTY3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Foot Operated Santitizer Stand",
+                        "id": "dGVybToxMTY4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Eco Friendly Diisposable Cup",
+                        "id": "dGVybToxMTcw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Delivery Bags",
+                "id": "dGVybToxMTI1",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNDIz",
+        "name": "Energy Consultant",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxOTQ=",
+        "name": "Energy Efficient Equipment",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Electrical Vehicle Parts",
+                "id": "dGVybToxMTU0",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Controllers",
+                        "id": "dGVybToxMjM2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Hub Motors",
+                        "id": "dGVybToxMjM0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Car Conversion Kit",
+                        "id": "dGVybToxMjMz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Other Accessories",
+                        "id": "dGVybToxMjQ1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Chargers",
+                        "id": "dGVybToxMjQ0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Connectors",
+                        "id": "dGVybToxMjQz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Lighting Accessories",
+                        "id": "dGVybToxMjQy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Smart Sockets",
+                "id": "dGVybToxMTU1",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Wifi Sockets",
+                        "id": "dGVybToxMTYw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Smart Socket for Mobile Chargers",
+                        "id": "dGVybToxMTYx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "DC Fans",
+                "id": "dGVybToxMTU4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Programmable Thermostat",
+                "id": "dGVybToxMTU3",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Energy Efficient Agri Equipments",
+                "id": "dGVybToxMTU5",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Energy Monitoring Device",
+                "id": "dGVybToxMTU2",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Next Gen Eco-Friendly Gadgets",
+                "id": "dGVybToyMTMz",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToyMzU0",
+        "name": "Energy Storage",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Mechanical Energy Storage",
+                "id": "dGVybToyMzU4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Compressed Air",
+                        "id": "dGVybToyMzY0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Flywheel",
+                        "id": "dGVybToyMzYz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Hydraulics",
+                        "id": "dGVybToyMzY1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Electro Chemical/Batteries",
+                "id": "dGVybToyMzU3",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Batteries",
+                        "id": "dGVybToyMzYw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Flow Batteries",
+                        "id": "dGVybToyMzYx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Super Capacitor",
+                        "id": "dGVybToyMzYy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Chemical Energy Storage",
+                "id": "dGVybToyMzU5",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Synthetic Fuel",
+                        "id": "dGVybToyMzY2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Biogas",
+                        "id": "dGVybToyMzY3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Hydrogen",
+                        "id": "dGVybToyNTEw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Methane",
+                        "id": "dGVybToyNTEx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToyMzU2",
+        "name": "Farming and Forestation",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Precision Agriculture",
+                "id": "dGVybToyNTEz",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Sensors",
+                        "id": "dGVybToyNTE5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "GPS/GIS",
+                        "id": "dGVybToyNTIw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Automated Machinery",
+                        "id": "dGVybToyNTIx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Sustainable Irrigation",
+                "id": "dGVybToyNTE0",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Drip Irrigation",
+                        "id": "dGVybToyNTIy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Smart Irrigation",
+                        "id": "dGVybToyNTIz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Rainwater Harvesting",
+                        "id": "dGVybToyNTI0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Organic Farming",
+                "id": "dGVybToyNTE1",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Fertilizer",
+                        "id": "dGVybToyNTI1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Pesticide",
+                        "id": "dGVybToyNTI2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Seed",
+                        "id": "dGVybToyNTI3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Aquaponics and Hydroponics",
+                "id": "dGVybToyNTE3",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Aquaponics",
+                        "id": "dGVybToyNTI4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Hydroponics",
+                        "id": "dGVybToyNTI5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Forestation and Afforestation",
+                "id": "dGVybToyNTE4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Tree Saplings",
+                        "id": "dGVybToyNTMw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Agro Equipment",
+                        "id": "dGVybToyNTMx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Manure",
+                        "id": "dGVybToyNTMy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToyNjM5",
+        "name": "Flowers Seeds",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToyMzU1",
+        "name": "Green Building Materials",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Renewable material",
+                "id": "dGVybToyMzY5",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Bamboo",
+                        "id": "dGVybToyMzc1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Cork",
+                        "id": "dGVybToyMzc2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": [
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Cork Products",
+                                "id": "dGVybToyNjEx",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            },
+                            {
+                              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                              "node": {
+                                "__typename": "ProductCategory",
+                                "name": "Insulated Cork Board",
+                                "id": "dGVybToyNjE2",
+                                "children": {
+                                  "__typename": "ProductCategoryToProductCategoryConnection",
+                                  "edges": []
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Wood",
+                        "id": "dGVybToyMzc3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Cellular light weight concrete",
+                        "id": "dGVybToyMzc4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Recycled Material",
+                "id": "dGVybToyMzY4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Recycled Concrete",
+                        "id": "dGVybToyMzcy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Recycled Steel",
+                        "id": "dGVybToyMzcz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Recycled Glass",
+                        "id": "dGVybToyMzc0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Low VOC (Volatile Organic Compound)",
+                "id": "dGVybToyMzcw",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Low VOC paints",
+                        "id": "dGVybToyMzc5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Low VOC Adhesive",
+                        "id": "dGVybToyMzgw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Low VOC Flooring",
+                        "id": "dGVybToyMzgx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Green Roof & Wall",
+                "id": "dGVybToyMzcx",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Water Efficient Plumbing",
+                        "id": "dGVybToyMzgy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Vertical Garden",
+                        "id": "dGVybToyMzgz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Vegetable Roofing System",
+                        "id": "dGVybToyMzg0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Permeable Paver",
+                        "id": "dGVybToyMzg1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Water Recycling",
+                        "id": "dGVybToyMzg2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "xd bhggmj,,,,,,hnm",
+                        "id": "dGVybToyMzg3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNTE0",
+        "name": "Membership",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxODAz",
+        "name": "Natural Personal Care",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Natural Skin Care",
+                "id": "dGVybToxODA0",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural face Wash",
+                        "id": "dGVybToxODEw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Skin Care",
+                        "id": "dGVybToxODEz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Moisturer",
+                        "id": "dGVybToxODEx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Face Mask",
+                        "id": "dGVybToxODEy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Natural Hair Care",
+                "id": "dGVybToxODA1",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Shampoo",
+                        "id": "dGVybToxODE0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Conditioner",
+                        "id": "dGVybToxODE2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based hair oil",
+                        "id": "dGVybToxODE1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Natural Baby Care",
+                "id": "dGVybToxODA5",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Baby Soaps",
+                        "id": "dGVybToxODU4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Baby Cream",
+                        "id": "dGVybToxODc0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Baby Scalp & Body Daily Massage Oils",
+                        "id": "dGVybToxODc1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Baby Lotions",
+                        "id": "dGVybToxODU3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Natural Body Care",
+                "id": "dGVybToxODA2",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Soaps Scrubs",
+                        "id": "dGVybToxODE5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Body Wash",
+                        "id": "dGVybToxODE4",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Natural Body Lotions",
+                        "id": "dGVybToxODE3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Toothbrush",
+                        "id": "dGVybToxODIw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Mouthwash",
+                        "id": "dGVybToxODIx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Natural Mens Grooming",
+                "id": "dGVybToxODA4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Aftershave",
+                        "id": "dGVybToxODIz",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Plant Based Shaving Cream",
+                        "id": "dGVybToxODIy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Natural Oral Care",
+                "id": "dGVybToxODA3",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxOTY=",
+        "name": "Organic Products",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Herbs",
+                "id": "dGVybToxMTUy",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Herbal seeds",
+                        "id": "dGVybToxMzAw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Herbal Fruits",
+                        "id": "dGVybToxMzE1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Essentials",
+                "id": "dGVybToxMTQ4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Floral Water",
+                        "id": "dGVybToxMzc2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Oil",
+                        "id": "dGVybToxMzUx",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Cereals",
+                "id": "dGVybToxMTUx",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Beans & Pulses",
+                "id": "dGVybToxMTUz",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Atta",
+                        "id": "dGVybToxMzYy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic dals",
+                        "id": "dGVybToxMzMy",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Pulses",
+                        "id": "dGVybToxMzM1",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Organic-Feed",
+                "id": "dGVybToxMTUw",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Fish-Feed",
+                        "id": "dGVybToxMjk0",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Animal Feed",
+                        "id": "dGVybToxMjg2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Poultry-Feed",
+                        "id": "dGVybToxMjkw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Organic Spices",
+                "id": "dGVybToxMTQ2",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Organic Honey & Sugar",
+                "id": "dGVybToxMTQ0",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Honey",
+                        "id": "dGVybToxMzQ5",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Jaggery",
+                        "id": "dGVybToxMzQ3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Organic Sugar",
+                        "id": "dGVybToxMzUw",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNjE4",
+        "name": "Recycle Bag",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNjYw",
+        "name": "Recycle Yarn",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNTky",
+        "name": "Recycled Polyester Fabric",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNjMy",
+        "name": "Recycled Stationery Items",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxNDIy",
+        "name": "Reused & Refurbished",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": []
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxOTU=",
+        "name": "Services",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Electricians",
+                "id": "dGVybToxMzg3",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Interior Designers",
+                "id": "dGVybToxMzg4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Carbon Consultant",
+                "id": "dGVybToxMzk2",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Green Building Designers",
+                "id": "dGVybToxMzg2",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "EV Mechanic",
+                "id": "dGVybToxMzkz",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Solar Consultant",
+                "id": "dGVybToxMzk1",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Solar Engineer",
+                "id": "dGVybToxMzkw",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "__typename": "RootQueryToProductCategoryConnectionEdge",
+      "node": {
+        "__typename": "ProductCategory",
+        "id": "dGVybToxOTM=",
+        "name": "Solar Energy",
+        "children": {
+          "__typename": "ProductCategoryToProductCategoryConnection",
+          "edges": [
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Solar Roof Top",
+                "id": "dGVybToxMTA0",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": [
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "On Grid",
+                        "id": "dGVybToxMTA2",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+                      "node": {
+                        "__typename": "ProductCategory",
+                        "name": "Off Grid",
+                        "id": "dGVybToxMTA3",
+                        "children": {
+                          "__typename": "ProductCategoryToProductCategoryConnection",
+                          "edges": []
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Solar Pumps",
+                "id": "dGVybToxMTAy",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Solar Freezers",
+                "id": "dGVybToxMTAz",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Solar Inverter",
+                "id": "dGVybToxMTA1",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            },
+            {
+              "__typename": "ProductCategoryToProductCategoryConnectionEdge",
+              "node": {
+                "__typename": "ProductCategory",
+                "name": "Water Purification Systems",
+                "id": "dGVybToxMTA4",
+                "children": {
+                  "__typename": "ProductCategoryToProductCategoryConnection",
+                  "edges": []
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
