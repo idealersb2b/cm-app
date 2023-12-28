@@ -63,3 +63,8 @@ function ProductListing() {
 }
 
 export default ProductListing
+
+export async function generateStaticParams() {
+    // Your code to fetch dynamic data and generate static parameters
+    return [{ params: { id: 'example' } }];
+  }
