@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { BsHeart, BsHeartFill } from "react-icons/bs"
-import NewsLetter from "../../components/NewsLetter/NewsLetter"
+import NewsLetter from "../components/NewsLetter/NewsLetter"
 import { useLazyQuery, useMutation, useQuery } from "@apollo/client"
 import { QUERY_GET_PRODUCT } from "@/app/graphql/Product/queries"
 import Reviews from "@/app/components/Reviews/Reviews"
@@ -15,7 +15,7 @@ import { v4 as uuidv4 } from 'uuid'
 import BreadCrumps from "@/app/components/BreadCrumps/BreadCrumps"
 import SocialShare from "@/app/components/SocialShare/SocialShare"
 import Lottie from "lottie-web"
-import reactLogo from "../../../../public/lottie/animation_llkii2bv.json";
+import reactLogo from "../../../public/lottie/animation_llkii2bv.json";
 import OurProductsRow from "@/app/components/OurProductsRow/OurProductsRow"
 import RecommendedRow from "@/app/components/RecommendedRow.js/RecommendedRow"
 import { ColorRing } from "react-loader-spinner"
@@ -422,5 +422,16 @@ function Product({ params }) {
 
     )
 }
+
+async function generateStaticParams() {
+  
+    const dynamicData = await fetchDataForStaticGeneration();
+  
+    const staticParams = dynamicData.map((item) => ({
+      params: { search: item.searchParameter },
+    }));
+    
+    return staticParams;
+  }
 
 export default Product

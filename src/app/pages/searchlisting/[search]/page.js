@@ -1,4 +1,4 @@
-"use client"
+// "use client"
 
 import React, { useEffect, useRef, useState } from 'react';
 import { useLazyQuery } from '@apollo/client';
@@ -11,10 +11,13 @@ import { VscSettings } from 'react-icons/vsc';
 import InfiniteScroll from "react-infinite-scroll-component";
 import Product from '@/app/components/Product/Product';
 import { QUERY_GET_PRODUCTS_BASED_ON_SEARCH } from '@/app/graphql/products/queries';
-import { useClient } from 'next/data-client';
+import { useRouter } from 'next/navigation'; 
 
+// Add the "use client" pragma here
+/** @jsxImportSource @react-client/scripts */
 function SearchListingComponent({ params, client }) {
   const { search } = params;
+  const router = useRouter();
 
   const [filterSelected, setSelectedFilter] = useState(['DATE', 'DESC']);
   const [priceSelcted, setPriceSelected] = useState([0, 1000000]);
@@ -67,35 +70,35 @@ function SearchListingComponent({ params, client }) {
       });
   };
 
-  const nextPageLoad = () => {
-    setIsLoading(true);
-    getSearchedProducts({
-      variables: {
-        search: decodeURIComponent(search),
-        order: filterSelected[1],
-        field: filterSelected[0],
-        minPrice: priceSelcted[0],
-        maxPrice: priceSelcted[1],
-        after: nextPage,
-      },
-    })
-      .then((data) => {
-        return data.data;
-      })
-      .then((data) => {
-        const tempproducts = formatAllProducts(data);
-        setAllProducts([...allProducts, ...tempproducts]);
-        setIsLoading(false);
-      })
-      .catch((e) => {
-        setError(e.message);
-        setIsLoading(false);
-      });
-  };
+  // const nextPageLoad = () => {
+  //   setIsLoading(true);
+  //   getSearchedProducts({
+  //     variables: {
+  //       search: decodeURIComponent(search),
+  //       order: filterSelected[1],
+  //       field: filterSelected[0],
+  //       minPrice: priceSelcted[0],
+  //       maxPrice: priceSelcted[1],
+  //       after: nextPage,
+  //     },
+  //   })
+  //     .then((data) => {
+  //       return data.data;
+  //     })
+  //     .then((data) => {
+  //       const tempproducts = formatAllProducts(data);
+  //       setAllProducts([...allProducts, ...tempproducts]);
+  //       setIsLoading(false);
+  //     })
+  //     .catch((e) => {
+  //       setError(e.message);
+  //       setIsLoading(false);
+  //     });
+  // };
 
   useEffect(() => {
     initialAllProductCall();
-  }, [filterSelected, priceSelcted]);
+  }, [filterSelected, priceSelcted, router.query]); // Add router.query to the dependencies array
 
   const SetFilter = (optionSelected) => {
     setSelectedFilter(optionSelected.split(' '));
@@ -198,6 +201,18 @@ function SearchListingComponent({ params, client }) {
             </div>
         </>
   );
+}
+
+
+export async function generateStaticParams() {
+  
+  const dynamicData = await fetchDataForStaticGeneration();
+
+  const staticParams = dynamicData.map((item) => ({
+    params: { search: item.searchParameter },
+  }));
+  
+  return staticParams;
 }
 
 export default function SearchListingPage(props) {

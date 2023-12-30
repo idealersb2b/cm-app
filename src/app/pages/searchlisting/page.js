@@ -1,4 +1,4 @@
-// "use client"
+"use client"
 
 import React from 'react';
 import { useQuery } from '@apollo/client';
@@ -7,32 +7,17 @@ import Dropdown from '@/app/components/Dropdown/Dropdown';
 import Product from '@/app/components/Product/Product';
 import { QUERY_GET_PRODUCT_CATEGORIES_AND_THEIR_CHILDREN } from '@/app/graphql/productCategories/queries';
 import products from '../../../../sample_data.json';
-import { useRouter } from 'next/router'; // Import useRouter
+import { useRouter } from 'next/navigation'; // Import useRouter
 
-// Define the generateStaticParams function for SSG
-async function generateStaticParams() {
-  // Fetch dynamic data for generating static parameters
-  const dynamicData = await fetchDataForStaticGeneration();
-
-  // Generate static parameters based on the dynamic data
-  const staticParams = dynamicData.map((item) => ({
-    params: { search: item.searchParameter },
-  }));
-
-  // Return the array of static parameters
-  return staticParams;
-}
 
 // Function marked with use client for client-side rendering
-function ProductListingComponent({ query }) {
-  console.log(query);
-
+function ProductListingComponent() {
   const router = useRouter(); // Use useRouter to access the client-side router object
 
   const { loading, error, data } = useQuery(QUERY_GET_PRODUCT_CATEGORIES_AND_THEIR_CHILDREN, {
     variables: {
       // Use router.query to access query parameters on the client side
-      search: router.query.search,
+      search: router.query.search || '', // Use router.query to access query parameters on the client side
     },
   });
 

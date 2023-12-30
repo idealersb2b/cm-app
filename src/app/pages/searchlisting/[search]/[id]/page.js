@@ -1,4 +1,6 @@
-"use client"
+// Remove the generateStaticParams function and export statement
+
+// "use client"
 
 // Import necessary dependencies
 import { useQuery } from '@apollo/client';
@@ -76,6 +78,17 @@ function SearchListing({ initialData }) {
       </div>
     </>
   );
+}
+
+export async function generateStaticParams() {
+  
+  const dynamicData = await fetchDataForStaticGeneration();
+
+  const staticParams = dynamicData.map((item) => ({
+    params: { search: item.searchParameter },
+  }));
+  
+  return staticParams;
 }
 
 // Export the function for CSR
