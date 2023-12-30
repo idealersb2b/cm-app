@@ -1,151 +1,117 @@
 "use client"
 
-import { QUERY_GET_FILTER_PRODUCT_CATEGORY, QUERY_GET_MORE_PRODUCT_CATEGORY } from '@/app/graphql/productCategories/queries';
-import { useLazyQuery, useQuery } from '@apollo/client';
+import React, { useEffect, useRef, useState } from 'react';
+import { useLazyQuery } from '@apollo/client';
 import CustomeDD from '@/app/components/Dropdown/Dropdown';
-import Shimmer_Product from '@/app/components/Shimmer/Shimmer_Product';
 import { v4 as uuidv4 } from 'uuid';
-import { useEffect, useRef, useState } from 'react';
-import React from "react";
-import Product from '@/app/components/Product/Product';
 import ReactPaginate from 'react-paginate';
 import Dropdown from 'react-multilevel-dropdown';
-import { QUERY_GET_PRODUCTS_BASED_ON_SEARCH } from '@/app/graphql/products/queries';
-import InfiniteScroll from "react-infinite-scroll-component";
-import { cookies } from 'next/dist/client/components/headers';
 import { CiFilter } from 'react-icons/ci';
 import { VscSettings } from 'react-icons/vsc';
+import InfiniteScroll from "react-infinite-scroll-component";
+import Product from '@/app/components/Product/Product';
+import { QUERY_GET_PRODUCTS_BASED_ON_SEARCH } from '@/app/graphql/products/queries';
+import { useClient } from 'next/data-client';
 
-// Define the generateStaticParams function
-async function generateStaticParams() {
-    // Fetch dynamic data for generating static parameters
-    const dynamicData = await fetchDataForStaticGeneration();
-  
-    // Generate static parameters based on the dynamic data
-    const staticParams = dynamicData.map((item) => ({
-      params: { search: item.searchParameter },
-    }));
-  
-    // Return the array of static parameters
-    return staticParams;
+function SearchListingComponent({ params, client }) {
+  const { search } = params;
+
+  const [filterSelected, setSelectedFilter] = useState(['DATE', 'DESC']);
+  const [priceSelcted, setPriceSelected] = useState([0, 1000000]);
+  const [hasMore, setHasMore] = useState(false);
+  const [nextPage, setNextPage] = useState(false);
+  const [isLoading, setIsLoading] = useState(1);
+  const [allProducts, setAllProducts] = useState([]);
+  const [filterOptionAvailable, setFilterOptionAvailable] = useState(false);
+  const [error, setError] = useState(null);
+  const [pageName, setPageName] = useState("");
+  const sortRef = useRef(null);
+
+  const [getSearchedProducts] = useLazyQuery(
+    QUERY_GET_PRODUCTS_BASED_ON_SEARCH
+  );
+
+  const formatAllProducts = (data) => {
+    const tempProducts = [];
+    setHasMore(data.products.pageInfo.hasNextPage);
+    setNextPage(data.products.pageInfo.endCursor);
+    data.products.edges.forEach((product) => {
+      tempProducts.push(product);
+    });
+
+    return tempProducts;
+  };
+
+  const initialAllProductCall = () => {
+    setIsLoading(true);
+    getSearchedProducts({
+      variables: {
+        search: decodeURIComponent(search),
+        order: filterSelected[1],
+        field: filterSelected[0],
+        minPrice: priceSelcted[0],
+        maxPrice: priceSelcted[1],
+      },
+    })
+      .then((data) => {
+        return data.data;
+      })
+      .then((data) => {
+        const tempproducts = formatAllProducts(data);
+        setAllProducts(tempproducts);
+        setIsLoading(false);
+      })
+      .catch((e) => {
+        setError(e.message);
+        setIsLoading(false);
+      });
+  };
+
+  const nextPageLoad = () => {
+    setIsLoading(true);
+    getSearchedProducts({
+      variables: {
+        search: decodeURIComponent(search),
+        order: filterSelected[1],
+        field: filterSelected[0],
+        minPrice: priceSelcted[0],
+        maxPrice: priceSelcted[1],
+        after: nextPage,
+      },
+    })
+      .then((data) => {
+        return data.data;
+      })
+      .then((data) => {
+        const tempproducts = formatAllProducts(data);
+        setAllProducts([...allProducts, ...tempproducts]);
+        setIsLoading(false);
+      })
+      .catch((e) => {
+        setError(e.message);
+        setIsLoading(false);
+      });
+  };
+
+  useEffect(() => {
+    initialAllProductCall();
+  }, [filterSelected, priceSelcted]);
+
+  const SetFilter = (optionSelected) => {
+    setSelectedFilter(optionSelected.split(' '));
+  };
+
+  const setPriceRange = (optionSelected) => {
+    setPriceSelected(optionSelected);
+  };
+
+  if (error) {
+    console.log(error);
+    return <div>Error</div>;
   }
 
-function SearchListing({ params }) {
-
-    const { search } = params
-
-    const [filterSelected, setSelectedFilter] = useState(['DATE', 'DESC']);
-    const [priceSelcted, setPriceSelected] = useState([0, 1000000]);
-    const [hasMore, setHasMore] = useState(false);
-    const [nextPage, setNextPage] = useState(false);
-    const [isLoading, setIsLoading] = useState(1);
-    const [allProducts, setAllProducts] = useState([]);
-    const [filterOptionAvailable, setFilterOptionAvailable] = useState(false)
-    const [error, setError] = useState(null);
-    const [pageName, setPageName] = useState("")
-    const sortRef = useRef(null);
-
-
-    const [getSearchedProducts] = useLazyQuery(QUERY_GET_PRODUCTS_BASED_ON_SEARCH);
-
-    const formatAllProducts = (data) => {
-        const tempProducts = [];
-        setHasMore(data.products.pageInfo.hasNextPage);
-        // setPageName(data.productCategory.name);
-        // setCount(data.productCategory.count);
-        setNextPage(data.products.pageInfo.endCursor);
-        data.products.edges.forEach((product) => {
-
-            // let tempProduct = {};
-
-            // tempProduct.name = product.node.name
-            // tempProduct.id = product.node.id
-            // tempProduct.price = product.node.price
-            // tempProduct.id = product.node.id
-            // tempProduct.productId = product.node.productId
-            // tempProduct.image = product.node.image.link
-
-            tempProducts.push(product);
-        })
-
-        return tempProducts;
-    }
-
-    const initialAllProductCall = () => {
-        setIsLoading(true);
-        getSearchedProducts({
-            variables: {
-                search: decodeURIComponent(search),
-                order: filterSelected[1],
-                field: filterSelected[0],
-                minPrice: priceSelcted[0],
-                maxPrice: priceSelcted[1]
-            }
-        })
-            .then((data) => {
-                return data.data
-            })
-            .then((data) => {
-
-                const tempproducts = formatAllProducts(data);
-                setAllProducts(tempproducts);
-                setIsLoading(false);
-            })
-            .catch((e) => {
-                setError(e.message);
-                setIsLoading(false);
-            })
-    }
-
-    const nextPageLoad = () => {
-        setIsLoading(true);
-        getSearchedProducts({
-            variables: {
-                search: decodeURIComponent(search),
-                order: filterSelected[1],
-                field: filterSelected[0],
-                minPrice: priceSelcted[0],
-                maxPrice: priceSelcted[1],
-                after: nextPage
-            }
-        })
-            .then((data) => {
-                return data.data
-            })
-            .then((data) => {
-                const tempproducts = formatAllProducts(data);
-                setAllProducts([...allProducts, ...tempproducts]);
-                setIsLoading(false);
-            })
-            .catch((e) => {
-                setError(e.message);
-                setIsLoading(false);
-            })
-    }
-
-
-    useEffect(() => {
-        initialAllProductCall();
-    }, [filterSelected, priceSelcted])
-
-
-
-    const SetFilter = (optionSelected) => {
-        setSelectedFilter(optionSelected.split(' '));
-    }
-
-    const setPriceRange = (optionSelected) => {
-        setPriceSelected(optionSelected);
-    }
-
-
-    if (error) {
-        console.log(error)
-        return <div>Error</div>
-    }
-
-    return (
-        <>
+  return (
+    <>
             <div className='flex items-center justify-between mx-4 sm:mx-14 md:hidden py-5 relative'>
                 {
                     filterOptionAvailable ? <div className='py-5 w-full top-full absolute z-40 md:hidden bg-greybg gap-5 rounded-lg h-min'>
@@ -201,7 +167,6 @@ function SearchListing({ params }) {
                 </div>
             </div>
 
-
             <div className='flex justify-center sm:justify-between mx-4 sm:mx-14 gap-4'>
                 <div className='w-[280px] hidden md:block bg-greybg gap-5 rounded-lg h-min'>
                     <div className='pr-5 pl-5'>
@@ -226,16 +191,16 @@ function SearchListing({ params }) {
                     next={() => nextPageLoad()}
                     className='grid grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 md:gap-14'
                 >
-                    {
-                        allProducts?.map((product) => {
-                            return <Product key={uuidv4()} product={product.node} />
-                        }
-                        )
-                    }
+                    {allProducts?.map((product) => (
+                        <Product key={uuidv4()} product={product.node} />
+                    ))}
                 </InfiniteScroll>
             </div>
         </>
-    )
+  );
 }
 
-export default SearchListing
+export default function SearchListingPage(props) {
+  const client = useClient();
+  return <SearchListingComponent {...props} client={client} />;
+}
