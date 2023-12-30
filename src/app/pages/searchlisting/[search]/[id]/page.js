@@ -8,6 +8,20 @@ import { useParams } from 'next/navigation'
 import { useQuery } from '@apollo/client';
 import { QUERY_GET_PRODUCT_CATEGORY } from '@/app/graphql/productCategories/queries';
 
+// Define the generateStaticParams function
+async function generateStaticParams() {
+    // Fetch dynamic data for generating static parameters
+    const dynamicData = await fetchDataForStaticGeneration();
+  
+    // Generate static parameters based on the dynamic data
+    const staticParams = dynamicData.map((item) => ({
+      params: { search: item.searchParameter },
+    }));
+  
+    // Return the array of static parameters
+    return staticParams;
+  }
+
 function SearchListing({ params }) {
 
     const { loading, error, data } = useQuery(QUERY_GET_PRODUCT_CATEGORY, {

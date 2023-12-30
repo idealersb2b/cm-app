@@ -16,6 +16,20 @@ import { cookies } from 'next/dist/client/components/headers';
 import { CiFilter } from 'react-icons/ci';
 import { VscSettings } from 'react-icons/vsc';
 
+// Define the generateStaticParams function
+async function generateStaticParams() {
+    // Fetch dynamic data for generating static parameters
+    const dynamicData = await fetchDataForStaticGeneration();
+  
+    // Generate static parameters based on the dynamic data
+    const staticParams = dynamicData.map((item) => ({
+      params: { search: item.searchParameter },
+    }));
+  
+    // Return the array of static parameters
+    return staticParams;
+  }
+
 function SearchListing({ params }) {
 
     const { search } = params
