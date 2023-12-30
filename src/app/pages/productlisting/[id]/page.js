@@ -12,6 +12,20 @@ import { CiFilter } from 'react-icons/ci'
 import { VscSettings } from 'react-icons/vsc'
 import BreadCrumps from '@/app/components/BreadCrumps/BreadCrumps';
 
+// Define the generateStaticParams function
+async function generateStaticParams() {
+    // Fetch dynamic data for generating static parameters
+    const dynamicData = await fetchDataForStaticGeneration();
+  
+    // Generate static parameters based on the dynamic data
+    const staticParams = dynamicData.map((item) => ({
+      params: { search: item.searchParameter },
+    }));
+  
+    // Return the array of static parameters
+    return staticParams;
+  }
+
 function ProductListing({ params }) {
 
     const productId = params.id;
@@ -244,8 +258,3 @@ function ProductListing({ params }) {
 }
 
 export default ProductListing
-
-async function generateStaticParams() {
-    // Your code to fetch dynamic data and generate static parameters
-    return [{ params: { id: 'example' } }];
-  }
