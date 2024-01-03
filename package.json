@@ -27,7 +27,7 @@
     "isomorphic-unfetch": "^4.0.2",
     "lottie-web": "^5.12.2",
     "micro": "^10.0.1",
-    "next": "^13.4.9",
+    "next": "13.4.9",
     "nookies": "^2.5.2",
     "postcss": "8.4.25",
     "rc-slider": "^9.6.5",
